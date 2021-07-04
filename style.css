@@ -1,0 +1,36 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background: url(images/top-banner.png) no-repeat ;
+}
+.container-flexibility{
+    display: flex;
+    margin-bottom: 50px;
+}
+h1{
+    font-size: 50px;
+}
+h3{
+    font-size: 35px;
+}
+.half-width{
+ padding: 0 5%;
+}
+.color{
+    color: darkorange;
+}
+p{
+    font-size: 20px;
+    font-family:'Poppins', sans-serif;;
+}
+.btn{
+    font-size: 25px;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-image: linear-gradient(#FF8C00, #F7896A);
+    color: white;
+    border-radius: 5px;
+}
