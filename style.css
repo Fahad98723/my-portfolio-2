@@ -36,7 +36,7 @@ p{
 .btn{
     font-size: 25px;
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 10px 20px;
     background-image: linear-gradient(#34A3F1, #000);
     color: white;
     border-radius: 5px;
@@ -47,4 +47,31 @@ p{
 }
 .dream .half-width h1, p, h3{
     color: white;
+}
+.experience{
+    background:linear-gradient(rgba(63, 233, 255, 0.5),rgb(0, 0, 255,0.8)),url(images/exp-bg.png) no-repeat left;
+}
+.full{
+    border-left: 10px solid;
+    border-image: linear-gradient(#FF9684,red);
+    border-image-slice: 1;
+}
+.baby{
+    border-left: 10px solid;
+    border-image: linear-gradient(#FF3585,yellow);
+    border-image-slice: 1;
+}
+.developer{
+    width: 50%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-left: 1%;
+}
+footer p{
+   color: black;
+   text-align: center;
+}
+footer{
+    background-color: #FF9084;
+    display: flow-root;
 }
